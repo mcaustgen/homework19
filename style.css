@@ -1,0 +1,221 @@
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    font-weight:lighter;
+}
+
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+h5{
+  font-family:'Sacramento', cursive;
+  font-size: 36px;
+}
+
+p, ul{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+}
+
+.display-4 {
+    font-weight: bolder !important;
+    font-size: 80px !important;
+}
+.jumboCopy p{
+    font-size: 24px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+    text-align: right;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+
+.navbar-brand {
+    padding-right: 15px;
+    width: 65px;
+    font-size: 32pt;
+    font-family: 'Sacramento', cursive;
+  }
+
+.nav-item {
+    margin: 0px 10px;
+    font-size: 18px;    
+  }
+
+.navCTA {
+    font-size: 18px;
+    color:white !important;
+    background-color:black !important;
+  }
+.jumbotron {
+    background-image: url("images/background-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.jumboCopy {
+padding-left: 100px;
+padding-right: 150px;
+  }  
+
+
+
+.section-container{
+    margin-top: 80px !important;
+    margin-bottom:120px !important;
+}  
+
+.lofi h2, .list h2, .hi-fi h2, .final h2{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hi-fi h2{
+    margin-bottom: 20px;
+}
+.list ul{
+    margin-top:20px;
+    margin-left: 210px;
+    margin-right: 200px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+
+}
+.final p{
+    margin-top:20px;
+    margin-left: 180px;
+    margin-right: 180px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+} 
+
+
+.research{
+    width:70%;
+    margin: 0 auto 15px;
+    margin-left:50px;
+}
+
+.hi-fi1{
+    margin-right: -15;
+}
+.hi-fi{
+    margin-left: -15;
+    margin-right: -15;
+    
+}
+.lofi{
+    padding-right:55px;
+}
+.footer-right{
+    float: right;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 60px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.footer-right a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+}
+ .footer {
+    margin: 0px auto;
+     margin-top: 150px;
+    line-height: 60px;
+    color: white;
+    background-color: black;
+    width: 100% !important;
+    height: 70px;
+}
+.logo2 {
+    float: left;
+    padding-left: 30px;
+    font-size: 18pt;
+    font-family: 'Sacramento', cursive;
+    margin: 0px auto;
+}
+
+.logo2 a{
+    margin: 0px auto;
+    padding-left:30px;
+}
+.btn-outline-hire1 {
+    border-radius: 5px;
+    font-size: 16px;
+    background-color:white;
+    cursor:pointer;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-left:40px;
+    color:black;
+    text-align: right;
+  
+  }
+@media only screen and (max-width:1200px){
+    .lofi{
+        width:calc(100% - 0px);
+        padding-right: 0px;
+    }
+    .footer{
+        width:calc(100% - 0px);
+        padding-right: 0px;
+    }
+}
+@media only screen and (max-width: 990px){
+    .list ul{
+        margin-top:20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 20px;
+    }
+    h2{
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .display-4 {
+        font-weight: bolder !important;
+        font-size: 70px !important;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .jumboCopy p{
+        font-size: 20px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        padding-left: 30px;
+        padding-right: 80px;
+    }
+    .jumboCopy{
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+    .final p{
+        margin-top:20px;
+        margin-left: 60px;
+        margin-right: 60px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 20px;
+    } 
+    
+
+}
+@media only screen and (max-width: 770px){
+.footer {
+    margin: 0px auto;
+     margin-top: 150px;
+    line-height: 60px;
+    color: white;
+    background-color: black;
+    width: 100% !important;
+    height: 150px;}
+}
