@@ -11,7 +11,7 @@ h2 {
     margin-bottom: 30px;
 }
 h5{
-  font-family:'Sacramento', cursive;
+    font-family: 'Raleway', sans-serif;
   font-size: 36px;
 }
 
@@ -38,8 +38,8 @@ p, ul{
 .navbar-brand {
     padding-right: 15px;
     width: 65px;
-    font-size: 32pt;
-    font-family: 'Sacramento', cursive;
+    font-size: 28pt;
+    font-family: 'Raleway', sans-serif;
   }
 
 .nav-item {
@@ -139,7 +139,7 @@ padding-right: 150px;
     float: left;
     padding-left: 30px;
     font-size: 18pt;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Raleway', sans-serif;
     margin: 0px auto;
 }
 
